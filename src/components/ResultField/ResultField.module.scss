@@ -1,0 +1,62 @@
+.result {
+  margin-right: 180px;
+  .title {
+    font-family: "Gilroy", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--grey);
+    margin-bottom: 8px;
+    height: 24px;
+    white-space: nowrap;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .value {
+    font-family: "Nekst-Black", sans-serif;
+    font-weight: 900;
+    font-size: 54px;
+    color: var(--grey);
+    height: 49px;
+    display: flex;
+    align-items: center;
+    line-height: 48.6px;
+    span {
+      position: relative;
+      bottom: 6px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .result {
+    margin-right: 85px;
+    width: 279px;
+    .title {
+      width: 191px;
+    }
+    .value {
+      color: var(--dark-grey);
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .result {
+    width: 279px;
+    .title {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 19px;
+      margin-bottom: 2px;
+      height: 19px;
+      width: 167px;
+    }
+    .value {
+      font-size: 22px;
+      line-height: 20px;
+      height: 20px;
+      width: 114px;
+    }
+  }
+}
