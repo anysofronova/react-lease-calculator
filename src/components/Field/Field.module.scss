@@ -5,6 +5,7 @@
   color: var(--grey);
   margin-bottom: 24px;
   height: 119px;
+  width: 100%;
   input {
     border: 2px solid var(--hover-nav);
     &:active,
@@ -241,9 +242,11 @@
   }
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1439px) {
   .field {
     margin-bottom: 0;
+    max-width: 320px;
+    height: 119px;
     .number {
       width: 100%;
     }
@@ -252,18 +255,16 @@
     }
   }
 }
-
-@media (max-width: 768px) {
+@media (max-width: 1119px) {
   .field {
-    height: 99px;
-    .title {
-      margin-bottom: 8px;
-    }
+    max-width: 696px;
+    height: 119px;
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   .field {
+    width: 280px;
     .number {
       padding: 0 0 0 20px;
       font-size: 22px;

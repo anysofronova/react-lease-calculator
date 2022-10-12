@@ -1,5 +1,6 @@
 .result {
-  margin-right: 180px;
+  margin-right: 32px;
+  width: 427px;
   .title {
     font-family: "Gilroy", sans-serif;
     font-size: 16px;
@@ -27,23 +28,32 @@
     }
   }
 }
-
-@media (max-width: 768px) {
+@media (max-width: 1439px) {
   .result {
-    margin-right: 85px;
-    width: 279px;
+    width: 320px;
+    height: 81px;
+    margin-right: 32px;
+  }
+}
+
+@media (max-width: 1119px) {
+  .result {
+    width: 332px;
     .title {
       width: 191px;
     }
     .value {
+      width: 332px;
       color: var(--dark-grey);
     }
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   .result {
-    width: 279px;
+    width: 167px;
+    height: 41px;
+    margin-right: 0;
     .title {
       font-size: 14px;
       font-weight: 400;
@@ -56,7 +66,7 @@
       font-size: 22px;
       line-height: 20px;
       height: 20px;
-      width: 114px;
+      max-width: 100%;
     }
   }
 }

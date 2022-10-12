@@ -76,9 +76,11 @@ const App = () => {
           <ResultField text="Сумма договора лизинга" result={contractAmount} />
           <ResultField text="Ежемесячный платеж от" result={monthlyPayment} />
         </div>
-        <button onClick={sendRequest} disabled={isSending}>
-          {isSending ? <Loader /> : "Оставить заявку"}
-        </button>
+        <div className={styles.button}>
+          <button onClick={sendRequest} disabled={isSending}>
+            {isSending ? <Loader /> : "Оставить заявку"}
+          </button>
+        </div>
       </div>
     </div>
   );
