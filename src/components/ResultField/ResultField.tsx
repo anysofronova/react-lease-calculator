@@ -10,7 +10,7 @@ export const ResultField: FC<ResultFieldProps> = ({ text, result }) => {
     <div className={styles.result}>
       <div className={styles.title}>{text}</div>
       <div className={styles.value}>
-        {Math.round(result).toLocaleString()}&nbsp;<span>₽</span>
+        {Math.round(result).toLocaleString()}&nbsp;<span>$</span>
       </div>
     </div>
   );
