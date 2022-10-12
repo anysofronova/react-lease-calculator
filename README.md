@@ -6,3 +6,5 @@
 </div>  
 
 **Demo:** https://anysofronova.github.io/react-lease-calculator/
+
+<div><img src="https://i.postimg.cc/8c435bCD/2022-10-12-19-32-58.png" alt="demo"></div>  
