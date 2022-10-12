@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/oxem-test-task/static/css/main.b0d78028.css",
-    "main.js": "/oxem-test-task/static/js/main.ad5e859c.js",
-    "static/js/787.9314a30d.chunk.js": "/oxem-test-task/static/js/787.9314a30d.chunk.js",
-    "static/media/Nekst-Black.eot": "/oxem-test-task/static/media/Nekst-Black.5fc4621c869412e7e801.eot",
-    "static/media/Nekst-Black.ttf": "/oxem-test-task/static/media/Nekst-Black.dffaebf93d38d4c41536.ttf",
-    "static/media/Gilroy-Regular.eot": "/oxem-test-task/static/media/Gilroy-Regular.19055ba082a9f78262f6.eot",
-    "static/media/Gilroy-Regular.ttf": "/oxem-test-task/static/media/Gilroy-Regular.fa652e766b6a85a1f9cb.ttf",
-    "static/media/Gilroy-Bold.eot": "/oxem-test-task/static/media/Gilroy-Bold.aa68c169bc1dc3db278e.eot",
-    "static/media/Gilroy-Bold.ttf": "/oxem-test-task/static/media/Gilroy-Bold.901a60fc2835c74fba67.ttf",
-    "static/media/Nekst-Black.woff": "/oxem-test-task/static/media/Nekst-Black.f0e2921efcf1112b1749.woff",
-    "static/media/Gilroy-Bold.woff": "/oxem-test-task/static/media/Gilroy-Bold.0607a1bc636f63251ed8.woff",
-    "static/media/Gilroy-Regular.woff": "/oxem-test-task/static/media/Gilroy-Regular.ebe86c0337572553acea.woff",
-    "index.html": "/oxem-test-task/index.html",
-    "main.b0d78028.css.map": "/oxem-test-task/static/css/main.b0d78028.css.map",
-    "main.ad5e859c.js.map": "/oxem-test-task/static/js/main.ad5e859c.js.map",
-    "787.9314a30d.chunk.js.map": "/oxem-test-task/static/js/787.9314a30d.chunk.js.map"
+    "main.css": "/react-lease-calculator/static/css/main.b02c39a7.css",
+    "main.js": "/react-lease-calculator/static/js/main.9728d1cf.js",
+    "static/js/787.531025ea.chunk.js": "/react-lease-calculator/static/js/787.531025ea.chunk.js",
+    "static/media/Nekst-Black.eot": "/react-lease-calculator/static/media/Nekst-Black.5fc4621c869412e7e801.eot",
+    "static/media/Nekst-Black.ttf": "/react-lease-calculator/static/media/Nekst-Black.dffaebf93d38d4c41536.ttf",
+    "static/media/Gilroy-Regular.eot": "/react-lease-calculator/static/media/Gilroy-Regular.19055ba082a9f78262f6.eot",
+    "static/media/Gilroy-Regular.ttf": "/react-lease-calculator/static/media/Gilroy-Regular.fa652e766b6a85a1f9cb.ttf",
+    "static/media/Gilroy-Bold.eot": "/react-lease-calculator/static/media/Gilroy-Bold.aa68c169bc1dc3db278e.eot",
+    "static/media/Gilroy-Bold.ttf": "/react-lease-calculator/static/media/Gilroy-Bold.901a60fc2835c74fba67.ttf",
+    "static/media/Nekst-Black.woff": "/react-lease-calculator/static/media/Nekst-Black.f0e2921efcf1112b1749.woff",
+    "static/media/Gilroy-Bold.woff": "/react-lease-calculator/static/media/Gilroy-Bold.0607a1bc636f63251ed8.woff",
+    "static/media/Gilroy-Regular.woff": "/react-lease-calculator/static/media/Gilroy-Regular.ebe86c0337572553acea.woff",
+    "index.html": "/react-lease-calculator/index.html",
+    "main.b02c39a7.css.map": "/react-lease-calculator/static/css/main.b02c39a7.css.map",
+    "main.9728d1cf.js.map": "/react-lease-calculator/static/js/main.9728d1cf.js.map",
+    "787.531025ea.chunk.js.map": "/react-lease-calculator/static/js/787.531025ea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0d78028.css",
-    "static/js/main.ad5e859c.js"
+    "static/css/main.b02c39a7.css",
+    "static/js/main.9728d1cf.js"
   ]
 }
