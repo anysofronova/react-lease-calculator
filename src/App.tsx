@@ -11,7 +11,7 @@ export type StateProps = {
 };
 const App = () => {
   const [state, setState] = useState<StateProps>({
-    cost: "3300000",
+    cost: "24000",
     contribution: "13",
     period: "60",
   });
@@ -41,19 +41,19 @@ const App = () => {
   };
   return (
     <div className={styles.app}>
-      <h1>Рассчитайте стоимость автомобиля в лизинг</h1>
+      <h1>Free lease calculator</h1>
       <form>
         <Field
-          title={"Стоимость автомобиля"}
+          title={"The cost of the car"}
           name={"cost"}
-          min={"1000000"}
-          max={"6000000"}
-          type={"₽"}
+          min={"10000"}
+          max={"100000"}
+          type={"$"}
           state={state}
           setState={setState}
         />
         <Field
-          title={"Первоначальный взнос"}
+          title={"Down payment"}
           name={"contribution"}
           min={"10"}
           max={"60"}
@@ -62,23 +62,23 @@ const App = () => {
           setState={setState}
         />
         <Field
-          title={"Срок лизинга"}
+          title={"Lease term"}
           name={"period"}
           min={"1"}
           max={"60"}
-          type={"мес."}
+          type={"mo"}
           state={state}
           setState={setState}
         />
       </form>
       <div className={styles.resultsContainer}>
         <div className={styles.results}>
-          <ResultField text="Сумма договора лизинга" result={contractAmount} />
-          <ResultField text="Ежемесячный платеж от" result={monthlyPayment} />
+          <ResultField text="Lease contract amount" result={contractAmount} />
+          <ResultField text="Monthly payment from" result={monthlyPayment} />
         </div>
         <div className={styles.button}>
           <button onClick={sendRequest} disabled={isSending}>
-            {isSending ? <Loader /> : "Оставить заявку"}
+            {isSending ? <Loader /> : "Leave a request"}
           </button>
         </div>
       </div>

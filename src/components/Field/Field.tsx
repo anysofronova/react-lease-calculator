@@ -7,7 +7,7 @@ type FieldProps = {
   name: keyof StateProps;
   min: string;
   max: string;
-  type: "%" | "₽" | "мес.";
+  type: "%" | "$" | "mo";
   state: StateProps;
   setState: (state: StateProps) => void;
 };
