@@ -1,4 +1,4 @@
-<h2>Oxem test task</h2>
+<h2>Lease Calculator</h2>
 <div>
 <img src="https://img.shields.io/badge/react-%23323330.svg?style=for-the-badge&logo=react&logoColor=white" alt="react">
 <img src="https://img.shields.io/badge/typescript-%23323330.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="typescript">
